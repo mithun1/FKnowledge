@@ -19,13 +19,30 @@
 	{
 	align: center;
 	color: #5500FF;
+		height: 75%;
+	width: 75%;
+	}
+	.contain1
+	{
+	margin-top: -16%;
 	}
 	.contain, .contain1
 	{
 	margin-left: 30%;
+		height: 65%;
+	width: 65%;
+	}
+	.item-logo, .item-logo1
+	{
+	height: 75%;
+	width: 75%;
+	}
+	.divice
+	{
+	height: 400px;
+	width: 300px;
 	}
 	</style>
-	<script src="cordova.js" type="text/javascript"></script>
 </head>
 <body>
 <script>
@@ -43,7 +60,7 @@
       
       // Start showing banners (atomatic when autoShowBanner is set to true)
      // admob.createBannerView();
-	 admob.createBannerView({publisherId: "ca-app-pub-1458752546991864", interstitialAdId: "ca-app-pub-1458752546991864/6989219451"});
+	 admob.createBannerView({publisherId: "ca-app-pub-1458752546991864", interstitialAdId: "ca-app-pub-1458752546991864/3727524075"});
       
       // Request interstitial (will present automatically when autoShowInterstitial is set to true)
       //admob.requestInterstitialAd();
@@ -54,7 +71,7 @@
    // document.addEventListener("deviceready", onDeviceReady, false);
 	function myFunctionadd()
 	{
-	 admob.requestInterstitialAd({publisherId: "Publisher ID: pub-1458752546991864", interstitialAdId: "ca-app-pub-1458752546991864/8034298696"});	
+	 admob.requestInterstitialAd({publisherId: "Publisher ID: pub-1458752546991864", interstitialAdId: "ca-app-pub-1458752546991864/9793281117"});	
 	}
 	function badd()
 	{
@@ -63,10 +80,12 @@
 	}
 	//setInterval(myFunctionadd(), 30000);
 </script>
+<div class="divice">
 	<div class="header"></div>
 	
 	<div class="contain"><div class="logo1"><a href="clickcount.html"><img class='item-logo' src="fkstart1.png"></a></div></div>
 	<div class="contain1"><div class="logo1"><a href="help.html"><img class='item-logo1' src="howtouse1.png"></a></div></div>
 <div class="footer"><p align="center">Developed by <a href="http://www.webapsolution.com">www.webapsolution.com</a></div>
+</div>
 </body>
 </html>
